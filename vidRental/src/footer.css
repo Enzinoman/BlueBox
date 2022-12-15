@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+    margin: 0%;
+}
+.category {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left;
+}
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+a,label,hr,span {
+    color: white;
+}
+a,label {
+    padding:10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+a {
+    text-decoration: none;
+}
+label {
+    font-weight: bold;
+}
+.media {
+    display: flex;
+    justify-content: center;
+}
+.terms {
+    font-size: small;
+}
+.copyright {
+    font-size:10px;
+}
+.smallIcons {
+    width: 40px;
+    height: 40px;
+}
+.iconsDiv {
+    padding: 30px;
+}
+.apple-google-logo {
+    width: 200px;
+    height: 67px;
+    padding: 5px;
+}
+.gradientDiv{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,34,121,1) 35%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.footer {
+    width: 1000px;
+}
+.topFooter {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gradientSubDiv {
+    padding: 30px;
+
+}
+.gradientTextSmall {
+    font-size: 15px;
+}
+.gradientTextLarge {
+    font-size: 25px;
+}
+.gradientButton {
+    border-radius: 12px;
+    border: none;
+    padding: 9px;
+    margin-top: 20px;
+    font-weight: 900;
+    color: rgb(2,0,36);
+}

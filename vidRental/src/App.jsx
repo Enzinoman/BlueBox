@@ -4,6 +4,7 @@ import './App.css'
 import Header from './components/header'
 // import './components/banner';
 // import './components/navbar';
+import Footer from "./Footer.jsx"
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+      <Footer />
     </div>
   )
 }
