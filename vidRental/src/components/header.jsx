@@ -2,8 +2,8 @@ import React from 'react';
 import './header.css';
 import Banner from './banner';
 import Navbar from './navbar';
-import './navbar.css';
-import './banner.css';
+
+
 
 
 const Header = () => {
