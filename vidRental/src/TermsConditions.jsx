@@ -18,7 +18,7 @@ const TermsConditions = () => {
                 <span>|</span>
                 <a className="terms">Transaction Terms And Conditions</a>
                 <span>|</span>
-                <a className="terms">On Demand Service Terms</a>
+                <a className="terms">On Request Service Terms</a>
                 <span>|</span>
                 <a className="terms">BlueFrog+ Terms and Conditions</a>
                 <span>|</span>

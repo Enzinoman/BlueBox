@@ -1,22 +1,22 @@
 [
     {
-        "label": "At The Kiosk",
+        "label": "At The Channel",
         "items": [
             {
                 "name": "New",
-                "url": "/kios-new"
+                "url": "/channel-new"
             },
             {
-                "name": "Movies To Rent",
-                "url": "/movies-to-rent"
+                "name": "Shows To Rent",
+                "url": "/shows-to-rent"
             },
             {
-                "name": "Movies To Own",
-                "url": "/movies-to-own"
+                "name": "shows To Own",
+                "url": "/shows-to-own"
             },
             {
-                "name": "BlueFrog+ Movies",
-                "url": "/bluefrog-plus-movies"
+                "name": "BlueFrog+ shows",
+                "url": "/bluefrog-plus-shows"
             },
             {
                 "name": "Genres",
@@ -67,7 +67,7 @@
                 "url": "/watchfree-livetv"
             },
             {
-                "name": "Free On Demand",
+                "name": "Free On Request",
                 "url": "/onrequest-free"
             }
 
@@ -77,8 +77,8 @@
         "label": "More",
         "items": [
             {
-                "name": "BlueFrog Perks",
-                "url": "/bluefrog-perks"
+                "name": "BlueFrog Benefits",
+                "url": "/bluefrog-benefits"
             },
             {
                 "name": "BlueFrog Unscripted",
@@ -113,8 +113,8 @@
         "label": "Locations",
         "items": [
             {
-                "name": "Find A Kiosk",
-                "url": "/find-kiosk"
+                "name": "Find A Channel",
+                "url": "/find-channel"
             }
 
         ]
