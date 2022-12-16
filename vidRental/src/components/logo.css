@@ -1,0 +1,18 @@
+.logo-column {
+    width: 200px;
+    height: 100px;
+    margin: 0px;
+    background-color: rgb(10, 14, 65);
+    margin: 0%;
+    padding: 0%;
+}
+
+.blueFrog {
+    height: 95px;
+    width: 75px;
+  }
+
+.blueLogo {
+    display: flex;
+    align-content: space-between;
+  }
