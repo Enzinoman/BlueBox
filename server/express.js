@@ -29,7 +29,7 @@ app.get('/test', async (req, res) => {
 //graps data from given date in given country
 app.get('/stream-schedule', async (req, res) => {
     try {
-        const response = await axios.get('https://api.tvmaze.com/schedule/web?date=2022-12-15&country=US');
+        const response = await axios.get('https://api.tvmaze.com/schedule/web?date=2022-12-16&country=US');
         res.json(response.data);
     }
     catch (err) {
