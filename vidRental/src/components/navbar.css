@@ -60,7 +60,8 @@
   }
 
   .column-three-row-one h4 {
-    margin-bottom: -44px;
+    margin-bottom: 12px;
+    color: rgb(248, 250, 251);
   }
 
   .column-three-row-two {
@@ -98,7 +99,7 @@
   }
 
   .dropButton h4{
-    padding: 0%;
+    padding-top: 22px;
     margin: 0%;
   }
   
@@ -132,7 +133,17 @@
       display: block;
       background-color: transparent;
       padding-bottom: 0%;
-      margin-bottom: 0%;
+      margin-bottom: -5px;
+    }
+
+    .dropdown-content-d {
+      height: 35px;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      background-color: transparent;
+      padding-bottom: 0%;
+      margin-bottom: -5px;
     }
 
   
@@ -174,16 +185,8 @@
   .dropdown:hover .dropButton {background-color: transparent;}
 
 
-  h1 {
-    margin: 10px;
-    font-size: 40px;
-    color: rgb(1, 1, 59);
-}
+
 
 .search {
     width: 30%;
-}
-
-ul li {
-    font-size: 20px;
 }
