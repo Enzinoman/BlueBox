@@ -83,9 +83,9 @@ return(
     </div>
     <div className="column-three-row-two">
     <div className="dropdown">
-        <div className="dropButton"><h4>Find a Channel</h4></div>
+        <div className="dropButton"><h4 id="fChannel">Find a Channel</h4></div>
           <div className="dropdown-content">
-            <p className="dropdown-content-p"></p>
+            <p className="dropdown-content-d"></p>
             <a href="#" className="dropdown-content-anchor">Local Channels</a>
             <a href="#" className="dropdown-content-anchor">Satellite</a>
             <a href="#" className="dropdown-content-bottom">Foreign</a>
