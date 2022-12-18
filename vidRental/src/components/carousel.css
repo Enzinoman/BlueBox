@@ -1,12 +1,5 @@
+.carousel-item {
+    display: flex;
 
-.darKnight {
-
-    max-height: 50px;
-    align-content: center;
-    }
-
-    .carouselItem {
-        width: 1500px;
-        align-content: center;
-    }
+}
 

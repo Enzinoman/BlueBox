@@ -30,10 +30,10 @@
   } */
 
   .inputBox {
-    height: 20px;
-    width: 200px;
+    height: 40px;
+    width: 300px;
     z-index: 10;
-    border-radius: 10px;
+    border-radius: 30px;
     border: 1px;
     border: 1px solid #ccc;
     background-color: transparent;

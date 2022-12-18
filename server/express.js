@@ -6,8 +6,6 @@ app.use(CORS());
 const port = 2022;
 
 
-const axios = require("axios");
-
 
 
 //graps the full schedule of tv shows beware of mass of data
