@@ -25,6 +25,7 @@ const [changeDisplay, setChangeDisplay] = useState(false)
       <div>
           <div className='topFluff'/>
           <DarkCarouselVariant />
+          {/* <bottomBanner /> */}
       </div>
       )
 
