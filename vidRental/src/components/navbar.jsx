@@ -26,12 +26,12 @@ return(
     </div>
     <div className="column-two-row-two">
       <div className="dropdown">
-        <div className="dropButton"><h4>On Our Channels</h4></div>
+        <div className="dropButton"><h4>At Our Lilly-Pad</h4></div>
           <div className="dropdown-content">
             <p className="dropdown-content-p"></p>
             <a href="#" className="dropdown-content-anchor">New</a>
-            <a href="#" className="dropdown-content-anchor">Series to Rent</a>
-            <a href="#" className="dropdown-content-anchor">Series to Own</a>
+            <a href="#" className="dropdown-content-anchor">Movies to Rent</a>
+            <a href="#" className="dropdown-content-anchor">Movies to Own</a>
             <a href="#" className="dropdown-content-anchor">BlueFrog Specials</a>
             <a href="#" className="dropdown-content-anchor">Genres</a>
             <a href="#" className="dropdown-content-bottom">Coming Soon</a>
@@ -83,12 +83,12 @@ return(
     </div>
     <div className="column-three-row-two">
     <div className="dropdown">
-        <div className="dropButton"><h4>Find a Channel</h4></div>
+        <div className="dropButton"><h4 id="fChannel">Find a Lilly-Pad</h4></div>
           <div className="dropdown-content">
-            <p className="dropdown-content-p"></p>
-            <a href="#" className="dropdown-content-anchor">Local Channels</a>
-            <a href="#" className="dropdown-content-anchor">Satellite</a>
-            <a href="#" className="dropdown-content-bottom">Foreign</a>
+            <p className="dropdown-content-d"></p>
+            <a href="#" className="dropdown-content-anchor">Locations</a>
+            <a href="#" className="dropdown-content-anchor">New Locations Coming Soon</a>
+            <a href="#" className="dropdown-content-bottom">Recommend a Lilly-Pad Location</a>
         </div>
       </div>
     </div>

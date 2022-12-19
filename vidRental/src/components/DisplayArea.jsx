@@ -1,48 +1,48 @@
-import React, {useEffect} from 'react';
+import React from 'react';
+import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {fetchData} from '../../../my-app/src/test-data'
+import axios from 'axios';
+import DarkCarouselVariant from './carousel'
+import fetchData from './data.json'
+import './DisplayArea.css';
 
-const DisplayArea = (Data) => {
-  const movies = Data || [];
+const DisplayArea = (props) => {
 
-  console.log(Data)
 
-  useEffect(() => {
-    
-    // useEffect hook is used to make the API call when the component is rendered.
-    fetchData().then((data) => {
-      Data.setMovies(data);
-    });
 
-  },[]);
 
-  if (movies.length === 0) {
-    return (
-      <p>There are no movies to display.</p>
-    );
-  }
+
+
 
   return (
-    <Carousel indicators={true} controls={true} interval={3000}>
-      {Data.map((movie) => (
-        <Carousel.Item key={movie.id}>
-          <img
-            className="d-block w-100"
-            src={movie.image.medium}
-            alt={movie.name}
-            style={{
-              maxHeight: '500px',
-              objectFit: 'cover',
-            }}
-          />
-          <Carousel.Caption>
-            <h3 style={{ fontSize: '2rem' }}>{movie.name}</h3>
-          </Carousel.Caption>
-        </Carousel.Item>
-      ))}
-    </Carousel>
+    <div>
+      <div className='topFluff'/>
+      <DarkCarouselVariant />
+    </div>
+
+
   );
 };
 
 export default DisplayArea;
+
+
+    {/* <Carousel indicators={true} controls={true} interval={3000}>
+      {myData.map(movie => (
+        <Carousel.Item key={movie.id}>
+          <img
+             className="d-block w-100"
+             src={movie.primaryImage.url}
+             alt="URL"
+             style={{
+               maxHeight: '500px',
+               objectFit: 'cover',
+             }}
+           />
+          <Carousel.Caption>
+            <h3 style={{ fontSize: '2rem' }}>{movie.name}</h3>
+          </Carousel.Caption>
+        </Carousel.Item>
+              ))}
+    </Carousel> */}

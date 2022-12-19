@@ -9,7 +9,7 @@ function Logo({placeholder, data}) {
         <img alt = "Frog" src={BlueFrogLogo} className="blueFrog"/>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-        <h3>Blue-Frog</h3>
+        <h4>Blue-Frog</h4>
       </div>
       
     </div>

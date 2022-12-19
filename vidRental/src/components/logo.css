@@ -20,3 +20,8 @@
     display: flex;
     align-content: space-between;
   }
+
+  .blueLogo h4{
+    display: flex;
+    color: rgb(245, 247, 249);
+  }
