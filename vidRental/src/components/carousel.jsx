@@ -1,6 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom'
+import Mars from './images/mars.png'
+import Smile from './images/smile.png'
+
+
 
 function DarkCarouselVariant() {
 
@@ -22,7 +27,7 @@ function DarkCarouselVariant() {
       };
     
     
-      axios.request(options)
+      axios.request(options) // "http//localhost:2022/displayArea"
       .then(function (response) {
         console.log(response.data);
         myData = response.data;
@@ -37,29 +42,34 @@ function DarkCarouselVariant() {
 
 
   return (
+    
     <Carousel className="darKnight" variant="lg">
       <Carousel.Item className="carousel-item" >
+      <Link to="/itemDetails">
         <img
           className=" d-block mx-auto img-fluid w-25"
           src={carouselImage1}
           alt="First slide"
         />
+        </Link>
       </Carousel.Item>
       <Carousel.Item  className="carousel-item">
-        <img 
+        <img
           className=" d-block mx-auto img-fluid w-25"
-          src={carouselImage1}
+          src={Mars}
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item className="carousel-item">
           <img
-            className=" d-block mx-auto img-fluid w-25"
-            src={carouselImage1}
+            className=" d-block mx-auto img-fluid w-100"
+            src={Smile}
             alt="Third slide"
           />
       </Carousel.Item>
     </Carousel>
+
+
   );
 }
 

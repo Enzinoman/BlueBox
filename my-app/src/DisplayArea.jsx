@@ -10,7 +10,11 @@ const DisplayArea = (Data) => {
 
   useEffect(() => {
     
+<<<<<<< HEAD
+    // useEffect hook is used to make the API call when the component is rendered. klajdsflkjasdf
+=======
     // useEffect hook is used to make the API call when the component is rendered.
+>>>>>>> development
     fetchData().then((data) => {
       Data.setMovies(data);
     });

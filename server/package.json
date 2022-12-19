@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "axios": "^1.2.1",
@@ -11,7 +10,7 @@
     "expressjs": "^1.0.1",
     "http": "0.0.1-security",
     "httpie": "^1.1.2",
-    "node": "^19.2.0",
+    "node": "^19.3.0",
     "nodejs": "0.0.0",
     "nodemon": "^2.0.20",
     "pg": "^8.8.0",
@@ -28,5 +27,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "description": ""
 }
