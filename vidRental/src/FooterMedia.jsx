@@ -12,7 +12,7 @@ const FooterMedia = () => {
         <div className='media'>
             {/* Displays social media icons */}
             <div className='follow-us'>
-                <a>Follow Us<br></br></a>
+                <a className='media-a'>Follow Us<br></br></a>
                 <div className='iconsDiv'>
                     <a href='https://www.facebook.com' className='smallIcons'><img src={facebookIcon}></img></a>
                     <a href='https://www.instagram.com' className='smallIcons'><img src={instagramIcon}></img></a>
@@ -24,8 +24,8 @@ const FooterMedia = () => {
             </div>
             {/* Displays App Store and Google Play icons */}
             <div className='download-app'>
-                <a>Download Our App<br></br></a>
-                <a >Rent From Anywhere<br></br></a>
+                <a className='media-a'>Download Our App<br></br></a>
+                <a className='media-a'>Rent From Anywhere<br></br></a>
                 <a href='https://www.apple.com' ><img src={appleStore} className='apple-google-logo'></img></a>
                 <a href='https://www.google.com' ><img src={googleStore}className='apple-google-logo'></img></a>
             </div>

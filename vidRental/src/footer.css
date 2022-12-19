@@ -21,9 +21,6 @@ a,label {
     padding:10px;
     font-family: 'Courier New', Courier, monospace;
 }
-a {
-    text-decoration: none;
-}
 label {
     font-weight: bold;
 }
@@ -33,9 +30,13 @@ label {
 }
 .terms {
     font-size: small;
+    text-decoration: none;
+    color: white;
 }
 .copyright {
     font-size:10px;
+    text-decoration: none;
+    color: white;
 }
 .smallIcons {
     width: 40px;
@@ -74,9 +75,13 @@ label {
 }
 .gradientTextSmall {
     font-size: 15px;
+    text-decoration: none;
+    color: white;
 }
 .gradientTextLarge {
     font-size: 25px;
+    text-decoration: none;
+    color: white;
 }
 .gradientButton {
     border-radius: 12px;
@@ -89,4 +94,16 @@ label {
 .slidingDiv {
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,34,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.aSelection {
+    color: white;
+    text-decoration: none;
+}
+.media-a {
+    color: white;
+    text-decoration: none;
+}
+.privacy {
+    text-decoration: none;
+    color: white;
 }

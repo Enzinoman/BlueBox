@@ -7,7 +7,7 @@ const Selection = (props) => {
     }
 
     return (
-        <a onClick={handleClick}>{props.selec.name}</a>
+        <a onClick={handleClick} className="aSelection">{props.selec.name}</a>
     )
 }
 export default Selection;

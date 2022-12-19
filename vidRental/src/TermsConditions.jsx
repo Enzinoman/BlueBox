@@ -3,11 +3,11 @@ const TermsConditions = () => {
     return (
         <div className='terms-conditions'>
             <div>
-                <a>Privary Policy</a>
+                <a className="privacy">Privary Policy</a>
                 <span>|</span>
-                <a>CA Privacy Notice</a>
+                <a className="privacy">CA Privacy Notice</a>
                 <span>|</span>
-                <a>Do Not Sell My Personal Info</a>
+                <a className="privacy">Do Not Sell My Personal Info</a>
             </div>
             <div>
                 <a className="terms">Terms of Use</a>
