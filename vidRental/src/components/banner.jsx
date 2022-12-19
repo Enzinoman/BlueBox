@@ -1,13 +1,13 @@
 import React from 'react';
-
-
+import './banner.css';
+import BannerAd from './images/bannerAd.jpg';
 
 const Banner = () => {
   return(  
     <div className='banner'>
-     <ul>
-        <li>I am here</li>
-     </ul>
+
+    <img alt = "Frog" src={BannerAd} className="bannerAd"/>
+
     </div>
   )
   

@@ -1,13 +1,17 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
+const CORS = require('cors');
+app.use(CORS());
 const port = 2022;
+
+
 
 
 //graps the full schedule of tv shows beware of mass of data
 app.get('/displayarea', async (req, res) => {
     try {
-        const response = await axios.get('https://api.tvmaze.com/schedule/full');
+        const response = await axios.get(' https://api.tvmaze.com/schedule/web?date=2020-05-29'); 
         res.json(response.data);
     }
     catch (err) {

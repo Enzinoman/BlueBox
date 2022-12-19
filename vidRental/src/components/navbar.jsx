@@ -1,72 +1,98 @@
-import React from 'react';
+import { React, useState } from "react";
 import './navbar.css';
+// import SearchBar from "./searchBar";
+// import ShowData from './data.json';
+import Logo from './logo';
+import SearchBar from "./searchBar";
+import ShowData from './data.json';
+
+
 
 const Navbar = () => {
-    const [openKiosk, setOpenKiosk] = React.useState(false);
-    const [openRequest, setOpenRequest] = React.useState(false);
 
-    const handleOpenKiosk = () => {
-        setOpenKiosk(!openKiosk);
-      };
 
-    const handleOpen = () => {
-        setOpenRequest(!openRequest);
-      };
+
+
 
 return(
 
 <div className='navbar' id="navbar">
-  <div className='navbar-top'>
-Here's some stuff to see
+  <div className="column-one">
+    <Logo />
   </div>
-  <div>
+  <div className="column-two">
+    <div className="column-two-row-one">
+      <SearchBar placeholder="Enter a Show Title" data={ShowData}/>
+    </div>
+    <div className="column-two-row-two">
       <div className="dropdown">
-       <div className="dropButton">At the Kiosk</div>
-        <div className="dropdown-content">
-          <a href="#">New</a>
-          <a href="#">Movies to Rent</a>
-          <a href="#">Movies to Own</a>
-          <a href="#">BlueFrog Movies</a>
-          <a href="#">Genres</a>
-          <a href="#">Coming Soon</a>
+        <div className="dropButton"><h4>At Our Lilly-Pad</h4></div>
+          <div className="dropdown-content">
+            <p className="dropdown-content-p"></p>
+            <a href="#" className="dropdown-content-anchor">New</a>
+            <a href="#" className="dropdown-content-anchor">Movies to Rent</a>
+            <a href="#" className="dropdown-content-anchor">Movies to Own</a>
+            <a href="#" className="dropdown-content-anchor">BlueFrog Specials</a>
+            <a href="#" className="dropdown-content-anchor">Genres</a>
+            <a href="#" className="dropdown-content-bottom">Coming Soon</a>
         </div>
       </div>
       <div className="dropdown">
-       <div className="dropButton">On Request</div>
-        <div className="dropdown-content">
-          <a href="#">Featured</a>
-          <a href="#">New</a>
-          <a href="#">Free</a>
-          <a href="#">Collections</a>
-          <a href="#">Genres</a>
-          <a href="#">Coming Soon</a>
-          <a href="#">Supported Devices</a>
+        <div className="dropButton"><h4>On Request</h4></div>
+          <div className="dropdown-content">
+            <p className="dropdown-content-p"></p>
+            <a href="#" className="dropdown-content-anchor">Featured</a>
+            <a href="#" className="dropdown-content-anchor">New</a>
+            <a href="#" className="dropdown-content-anchor">Free</a>
+            <a href="#" className="dropdown-content-anchor">Collections</a>
+            <a href="#" className="dropdown-content-anchor">Genres</a>
+            <a href="#" className="dropdown-content-anchor">Coming Soon</a>
+          <a href="#" className="dropdown-content-bottom">Supported Devices</a>
         </div>
       </div>
       <div className="dropdown">
-       <div className="dropButton">Watch Free</div>
-        <div className="dropdown-content">
-          <a href="#">Free Live TV</a>
-          <a href="#">Free On Request</a>
+        <div className="dropButton"><h4>Watch Free</h4></div>
+          <div className="dropdown-content">
+           <p className="dropdown-content-p"></p>
+           <a href="#" className="dropdown-content-anchor">Free Live TV</a>
+           <a href="#" className="dropdown-content-bottom">Free On Request</a>
         </div>
       </div>
       <div className="dropdown">
-       <div className="dropButton">Deals</div>
-        <div className="dropdown-content">
-          <a href="#">Value Menu</a>
-          <a href="#">BlueFrog Plus</a>
+        <div className="dropButton"><h4>Deals</h4></div>
+          <div className="dropdown-content">
+            <p className="dropdown-content-p"></p>
+            <a href="#" className="dropdown-content-anchor">Value Menu</a>
+            <a href="#" className="dropdown-content-bottom">BlueFrog Plus</a>
         </div>
       </div>
       <div className="dropdown">
-       <div className="dropButton">More</div>
-        <div className="dropdown-content">
-          <a href="#">BlueFrog Benefits</a>
-          <a href="#">BlueFrog Blog</a>
-          <a href="#">Gift Card</a>
+        <div className="dropButton"><h4>More</h4></div>
+          <div className="dropdown-content">
+            <p className="dropdown-content-p"></p>
+            <a href="#" className="dropdown-content-anchor">BlueFrog Benefits</a>
+            <a href="#" className="dropdown-content-anchor">BlueFrog Blog</a>
+            <a href="#" className="dropdown-content-bottom">Gift Card</a>
+        </div>
+      </div>
+      </div>
+  </div>
+  <div className="column-three">
+    <div className="column-three-row-one">
+    <h4>Sign In&nbsp;&nbsp;&nbsp; || &nbsp;&nbsp;&nbsp;Sign Up</h4>
+    </div>
+    <div className="column-three-row-two">
+    <div className="dropdown">
+        <div className="dropButton"><h4 id="fChannel">Find a Lilly-Pad</h4></div>
+          <div className="dropdown-content">
+            <p className="dropdown-content-d"></p>
+            <a href="#" className="dropdown-content-anchor">Locations</a>
+            <a href="#" className="dropdown-content-anchor">New Locations Coming Soon</a>
+            <a href="#" className="dropdown-content-bottom">Recommend a Lilly-Pad Location</a>
         </div>
       </div>
     </div>
-  
+  </div>
 </div>
 )
 
