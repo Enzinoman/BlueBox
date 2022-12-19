@@ -5,13 +5,7 @@ const cors = require('cors');
 app.use(cors());
 const port = 2022;
 
-
-<<<<<<< HEAD
-
 const axios = require("axios");
-
-=======
->>>>>>> development
 
 
 //graphs the full schedule of tv shows beware of mass of data
