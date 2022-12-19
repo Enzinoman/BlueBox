@@ -12,6 +12,10 @@
     width: 75px;
   }
 
+  h3 {
+    color: white;
+  }
+
 .blueLogo {
     display: flex;
     align-content: space-between;

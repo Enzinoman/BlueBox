@@ -5,7 +5,5 @@ import './index.css'
 import Header from './components/header'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
     <App />
-  </React.StrictMode>,
 )

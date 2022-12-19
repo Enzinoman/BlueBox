@@ -3,20 +3,15 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import Header from './components/header'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import Footer from "./Footer.jsx"
 import DisplayArea from './components/DisplayArea'
 import Item from './components/itemDetails'
 
 
-// import './components/banner';
-// import './components/navbar';
-
-//
-
 
 function App() {
-
-
   return (
+
     <Router>
       <div className="App">
         <Header />
@@ -30,9 +25,11 @@ function App() {
             </Route>
           </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
-  )
-}
 
-export default App
+  )
+};
+
+export default App;

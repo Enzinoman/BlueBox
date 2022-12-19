@@ -190,3 +190,10 @@
 .search {
     width: 30%;
 }
+
+ul li {
+    font-size: 20px;
+}
+h4 {
+  color: white;
+}
