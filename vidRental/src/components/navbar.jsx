@@ -16,6 +16,9 @@ const Navbar = () => {
 
 return(
 
+
+
+
 <div className='navbar' id="navbar">
   <div className="column-one">
     <Logo />

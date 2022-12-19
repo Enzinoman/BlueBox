@@ -30,15 +30,15 @@
   } */
 
   .inputBox {
-    height: 20px;
+    height: 35px;
     width: 200px;
     z-index: 10;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 1px;
     border: 1px solid #ccc;
     background-color: transparent;
-    /* align-content: right; */
-  } */
+
+  } 
 
 
   .searchIcon {
