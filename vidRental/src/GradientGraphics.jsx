@@ -1,3 +1,4 @@
+import './gradientDiv.css'
 
 const GradientGraphics = () => {
 
