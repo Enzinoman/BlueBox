@@ -6,8 +6,14 @@ import axios from 'axios';
 import DarkCarouselVariant from './carousel';
 import fetchData from './data.json'
 import './DisplayArea.css';
+import ReactDOM from "react-dom/client";
+import { Link } from 'react-router-dom'
+
+
+
 
 const DisplayArea = (props) => {
+const [changeDisplay, setChangeDisplay] = useState(false)
 
 
 
@@ -15,15 +21,17 @@ const DisplayArea = (props) => {
 
 
 
-  return (
-    <div>
-      <div className='topFluff'/>
-      <DarkCarouselVariant />
-    </div>
+      return (
+      <div>
+          <div className='topFluff'/>
+          <DarkCarouselVariant />
+      </div>
+      )
 
 
 
-  );
+
+
 };
 
 export default DisplayArea;
