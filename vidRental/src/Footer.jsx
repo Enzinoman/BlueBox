@@ -3,7 +3,6 @@ import './footer.css'
 import footerCategories from './FooterCategories.json'
 import FooterMedia from './FooterMedia.jsx'
 import TermsConditions from './TermsConditions.jsx'
-import GradientGraphics from './GradientGraphics.jsx'
 import { useState } from 'react'
 import SlidingDiv from './SlidingDiv.jsx'
 import { useEffect } from 'react'
@@ -22,7 +21,6 @@ const Footer = () => {
     return (
         <div className='topFooter'>
             {/* Displays div with gradient background and Join/Sign Up buttons */}
-            <GradientGraphics />
             <div className='footer'>
                 {selection === '' ? 
                 <hr></hr>

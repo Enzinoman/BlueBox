@@ -8,6 +8,7 @@ import fetchData from './data.json'
 import './DisplayArea.css';
 import ReactDOM from "react-dom/client";
 import { Link } from 'react-router-dom'
+import GradientGraphics from './GradientGraphics';
 
 
 
@@ -25,7 +26,8 @@ const [changeDisplay, setChangeDisplay] = useState(false)
       <div>
           <div className='topFluff'/>
           <DarkCarouselVariant />
-          {/* <bottomBanner /> */}
+          <GradientGraphics />
+
       </div>
       )
 
