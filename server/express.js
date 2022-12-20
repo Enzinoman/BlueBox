@@ -1,51 +1,29 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-const cors = require('cors');
-app.use(cors());
+const CORS = require('cors');
+app.use(CORS());
 const port = 2022;
 
-const axios = require("axios");
 
+app.get('/test', (req, res) => {
 
-//graphs the full schedule of tv shows beware of mass of data
-app.get('/displayarea', async (req, res) => {
-    try {
-        const response = await axios.get(' https://api.tvmaze.com/schedule/web?date=2020-05-29'); 
-
-        res.json(response.data);
-    }
-    catch (err) {
-        console.log(err);
-    }
+    axios.get('https://moviesdatabase.p.rapidapi.com/titles/x/upcoming', {
+        headers: {
+            'X-RapidAPI-Key':'83e0e090d5msha3f06865ed72c28p16284ajsn36df8c2e848f',
+            'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
+        }
+    })
+        .then(response => {
+            // Do something with the response data
+            res.send(response.data);
+        })
+        .catch(error => {
+            // Handle any error that occurred
+            console.error(error);
+            res.send(error);
+        });
 });
-
-//graps breaking bad data as a test
-app.get('/test', async (req, res) => {
-    try {
-        const response = await axios.get('https://api.tvmaze.com/lookup/shows?thetvdb=81189');
-        res.json(response.data);
-    }
-    catch (err) {
-        console.log(err);
-    }
-});
-
-//graps data from given date in given country
-app.get('/stream-schedule', async (req, res) => {
-    try {
-        const response = await axios.get('https://api.tvmaze.com/schedule/web?date=2022-12-15&country=US');
-        res.json(response.data);
-    }
-    catch (err) {
-        console.log(err);
-    }
-});
-
-app.get('*', (req, res) => {
-    res.status(500).json({ message: 'error' });
-});
-
 
 app.listen(port, () => {
     console.log(`BlueFrog Server listening on port ${port} Happy Hopping`);
