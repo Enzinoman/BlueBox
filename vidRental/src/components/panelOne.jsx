@@ -13,28 +13,12 @@ import Panther from './images/blackPanther.png'
 import Bol from './images/bookOfLife.png'
 import Expendables1 from './images/expendables.png'
 import Expendables2 from './images/expendables2.png'
-import Expendables3 from './images/expendables3.png'
-import Giants from './images/giants.png'
-import Guardians from './images/guardians.png'
-import Guardians2 from './images/guardians2.png'
-import IntoDarkness from './images/guardians2.png'
-import LastJedi from './images/lastJedi.png'
-import JurassicWorld from './images/jurassicWorld.png'
+
 
 
 
 const PanelOne = () => {
 
-    const movieThumbNailArray = [{Amsterdam}, {Adam}, {Pearl}, {Panther}, {Expendables1}, {Expendables2}, {Expendables3}, {Giants}, {Guardians}, {Guardians2}, {IntoDarkness}, {LastJedi}, {JurassicWorld}];
-    const [currentIndex, setCurrentIndex] = useState(0)
-    const [length, setLength] = useState()
-  
-      
-    useEffect(() => {
-      setLength(movieThumbNailArray.length)
-  }, [movieThumbNailArray])
-  
-  
 
 
 return (

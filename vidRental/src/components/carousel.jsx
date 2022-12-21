@@ -41,6 +41,34 @@ function DarkCarouselVariant() {
 
 
 
+    // let moviesData = [];
+
+
+    // const movies = {
+    //   method: 'GET',
+    //   url: 'http://localhost:2022/movies',
+    //   headers: {
+    //     'X-RapidAPI-Key': '83e0e090d5msha3f06865ed72c28p16284ajsn36df8c2e848f',
+    //     'X-RapidAPI-Host': 'imdb-top-100-movies.p.rapidapi.com'
+    //   }
+    // };
+  
+  
+    // axios.request(movies)
+    // .then(function (response) {
+    //   console.log(response.data);
+    //   moviesData = response.data;
+    //   console.log(myData.results);
+    //   setCarouselImage1(moviesData);
+  
+    // }).catch(function (error) {
+    //   console.error(error);
+    // });
+
+
+
+
+
 
   return (
     

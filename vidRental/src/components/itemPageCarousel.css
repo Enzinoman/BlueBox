@@ -1,7 +1,8 @@
 .outer-container {
-    width: 1100px;
-    display: table-row;
+    width: 1500px;
+    display: flex;
     flex-direction: center;
+    align-items: center;
 }
 
 .leftPadding {
@@ -54,13 +55,26 @@ background-color: transparent;
 .left-arrow {
     background-color: black;
     color: aqua;
+    position:relative; left: 80px;
 }
 
 .right-arrow {
     background-color: black;
     color: aqua;
+    position:relative; right: 80px;
+
 }
 
 .btnDiv {
-    width: 40px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
 }
+
+.btnDivL {
+    width: 200px;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+

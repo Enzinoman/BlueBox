@@ -49,19 +49,15 @@ if(panel === 1){
   return (
   
     <div className="outer-container">
-            <div className='btnDiv'>
-          <button onClick={prev} className="left-arrow">
-            &lt;
-          </button>
-        </div>
-      <div className="leftPadding" />
+      <div className='btnDivL'>
+  
+      </div>
         <PanelOne />
-      <div className="rightPadding" />
       <div className='btnDiv'>
-          <button onClick={next} className="right-arrow">
-            &lt;
-          </button>
-        </div>
+        <button onClick={next} className="right-arrow">
+          <h1>&gt;</h1>
+        </button>
+      </div>
     </div>
   );
 
@@ -69,38 +65,33 @@ if(panel === 1){
       if(panel === 2){
         return (
           <div className="outer-container">
-          <div className='btnDiv'>
-        <button onClick={prev} className="left-arrow">
-          &lt;
-        </button>
-      </div>
-    <div className="leftPadding" />
-      <PanelTwo />
-    <div className="rightPadding" />
-    <div className='btnDiv'>
-        <button onClick={next} className="right-arrow">
-          &lt;
-        </button>
-      </div>
-  </div>
+            <div className='btnDivL'>
+              <button onClick={prev} className="left-arrow">
+                <h1>&lt;</h1>
+              </button>
+            </div>
+              <PanelTwo />
+            <div className='btnDiv'>
+              <button onClick={next} className="right-arrow">
+                <h1>&gt;</h1>
+              </button>
+            </div>
+          </div>
         );
       }else{
         return (
           <div className="outer-container">
-          <div className='btnDiv'>
-        <button onClick={prev} className="left-arrow">
-          &lt;
-        </button>
-      </div>
-    <div className="leftPadding" />
-      <PanelThree />
-    <div className="rightPadding" />
-    <div className='btnDiv'>
-        <button onClick={next} className="right-arrow">
-          &lt;
-        </button>
-      </div>
-  </div>
+            <div className='btnDivL'>
+              <button onClick={prev} className="left-arrow">
+                <h1>&lt;</h1>
+              </button>
+            </div>
+            <PanelThree />
+            <div className='btnDiv'>
+
+            </div>
+          </div>
+
         );
       }
 
