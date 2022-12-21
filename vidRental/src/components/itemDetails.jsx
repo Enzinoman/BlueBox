@@ -1,36 +1,24 @@
 import React from 'react';
-import avatarWater from './images/WayOfWaterThumbNail.png'
+import avatarWater from './images/WayOfWaterThumbNail.png';
 import ReactDOM from "react-dom/client";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import JouSection from './JouSection';
+// import CarouselItem from './ItemPageCarousel'
 
 
 
 const Item = (props) => {
 
-    
-    
-    
-    
+  return(
+    <Link to="/itemDetails">
+      <JouSection/>
+      {/* <CarouselItem /> */}
+    </Link>
+  )
 
-        return(
-        <div>
-          <div className='topFluff'/>
-          <Link to="/">
-            <img
-              className="avatar"
-              src={avatarWater}
-            />
-            </Link>
-          </div>
-        )
+};
 
-    
-    
-    
-    
-    };
-    
-    export default Item;
+export default Item;
     
     
     
