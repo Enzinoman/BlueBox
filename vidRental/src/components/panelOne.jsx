@@ -17,7 +17,7 @@ import Expendables3 from './images/expendables3.png'
 import Giants from './images/giants.png'
 import Guardians from './images/guardians.png'
 import Guardians2 from './images/guardians2.png'
-import IntoDarkness from './images/guardians2.png'
+import IntoDarkness from './images/intoDarkness.png'
 import LastJedi from './images/lastJedi.png'
 import JurassicWorld from './images/jurassicWorld.png'
 
