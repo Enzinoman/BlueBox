@@ -6,6 +6,7 @@ import axios from 'axios';
 import DarkCarouselVariant from './carousel'
 import fetchData from './data.json'
 import './DisplayArea.css';
+import ItemDetailSummary from './itemDetailSummary';
 
 const DisplayArea = (props) => {
 
@@ -20,8 +21,6 @@ const DisplayArea = (props) => {
       <div className='topFluff'/>
       <DarkCarouselVariant />
     </div>
-
-
   );
 };
 
