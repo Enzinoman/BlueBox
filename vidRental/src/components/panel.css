@@ -2,6 +2,7 @@
     width: 1100px;
     display: table-row;
     flex-direction: center;
+    background-color: transparent;
 }
 
 .carousel-wrapper {

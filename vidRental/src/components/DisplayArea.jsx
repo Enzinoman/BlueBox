@@ -26,11 +26,8 @@ import JurassicWorld from './images/jurassicWorld.png'
 
 
 
+
 const DisplayArea = (props) => {
-const [changeDisplay, setChangeDisplay] = useState(false)
-const movieThumbNailArray = [{Amsterdam}, {Adam}, {Pearl}, {Panther}, {Expendables1}, {Expendables2}, {Expendables3}, {Giants}, {Guardians}, {Guardians2}, {IntoDarkness}, {LastJedi}, {JurassicWorld}];
-
-
 
 
 

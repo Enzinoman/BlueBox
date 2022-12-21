@@ -1,8 +1,3 @@
-import Carousel from 'react-bootstrap/Carousel';
-import { useState } from 'react';
-import { useEffect} from 'react';
-import axios from 'axios';
-import { Link } from 'react-router-dom'
 import 'react-multi-carousel/lib/styles.css';
 import './itemPageCarousel.css';
 import './panel.css';

@@ -1,8 +1,3 @@
-import Carousel from 'react-bootstrap/Carousel';
-import { useState } from 'react';
-import { useEffect} from 'react';
-import axios from 'axios';
-import { Link } from 'react-router-dom'
 import 'react-multi-carousel/lib/styles.css';
 import './itemPageCarousel.css';
 import './panel.css';
@@ -62,24 +57,3 @@ return (
 export default PanelOne;
 
 
-              {/* <div className='imageBoundary'>
-                <img className="images" src={Expendables3} alt="placeholder" />
-              </div>
-              <div className='imageBoundary'>
-                <img className="images" src={Giants} alt="placeholder" />
-              </div>
-              <div className='imageBoundary'>
-                <img className="images" src={Guardians} alt="placeholder" />
-              </div>
-              <div className='imageBoundary'>
-                <img className="images" src={Guardians2} alt="placeholder" />
-              </div>
-              <div className='imageBoundary'>
-                <img className="images" src={IntoDarkness} alt="placeholder" />
-              </div>
-              <div className='imageBoundary'>
-                <img className="images" src={LastJedi} alt="placeholder" />
-              </div>
-              <div className='imageBoundary'>
-                <img className="images" src={JurassicWorld} alt="placeholder" />
-</div>*/}
