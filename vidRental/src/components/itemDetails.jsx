@@ -6,7 +6,9 @@ import CarouselItem from './ItemPageCarousel'
 import ReviewBox from "./Review-Adv Components/ReviewBox.jsx"
 import reviewsData from "./Review-Adv Components/AllReviews.json"
 import { useState } from "react";
-
+import ItemDetailSummary from './itemDetailSummary';
+import JouSection from './JouSection';
+import './itemDetails.css';
 
 const Item = (props) => {
   const [currentMovie, setCurrentMovie] = useState(reviewsData[0])
@@ -19,8 +21,11 @@ const Item = (props) => {
 
   return (
     <div>
-      <div className='topFluff' />
-      <Link to="/itemDetails">
+      
+      <Link to="/itemDetails" >
+      <div className='topRun' />
+      <JouSection/>
+      <ItemDetailSummary />
         <CarouselItem />
         <ReviewBox {...itemProps}/>
       </Link>

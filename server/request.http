@@ -1,8 +1,2 @@
 ###
-get http://localhost:2022/displayarea
-
-###
 get http://localhost:2022/test
-
-###
-get http://localhost:2022/stream-schedule

@@ -1,5 +1,6 @@
+import React from 'react'
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+// import reactLogo from './assets/react.svg'
 import './App.css'
 import Header from './components/header'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
@@ -10,8 +11,11 @@ import Item from './components/itemDetails'
 
 
 function App() {
-  return (
+  const [linkTarget, setLinkTarget] = useState('');
+  const editLinkTarget = {linkTarget, setLinkTarget}
 
+  return (
+  <appContext.Provider value={{...editLinkTarget}}>
     <Router>
       <div className="App">
         <Header />
@@ -28,8 +32,12 @@ function App() {
         <Footer />
       </div>
     </Router>
+  </appContext.Provider>
 
   )
 };
 
+
+export const appContext = React.createContext();
 export default App;
+
