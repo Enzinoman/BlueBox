@@ -17,6 +17,7 @@ function DarkCarouselVariant() {
 
     let myData = [];
 
+
     const options = {
       method: 'GET',
       url: 'http://localhost:2022/test',

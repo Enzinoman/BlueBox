@@ -107,7 +107,7 @@ if(panel === 1){
 }
 }
 
-// style={{marginLeft: 'auto', marginRight: 'auto'}}
+// style={{marginLeft: 'auto', marginRight: 'auto'}} klahjsdkffjh
 
 export default DarkCarouselVariant;
 
