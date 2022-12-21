@@ -14,7 +14,7 @@ function DarkCarouselVariant() {
     
       const options = {
         method: 'GET',
-        url: 'https://moviesdatabase.p.rapidapi.com/titles/x/upcoming',
+        url: 'http://localhost:2022/test',
         headers: {
           'X-RapidAPI-Key': '83e0e090d5msha3f06865ed72c28p16284ajsn36df8c2e848f',
           'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
