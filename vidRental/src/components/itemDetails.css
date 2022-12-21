@@ -1,8 +1,15 @@
+
+
 .outer-container {
     width: 1500px;
     display: flex;
     flex-direction: center;
     align-items: center;
+}
+
+.topRun{
+  height: 160px;
+  background-color: transparent;
 }
 
 .leftPadding {
