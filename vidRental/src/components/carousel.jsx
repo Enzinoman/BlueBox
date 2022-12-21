@@ -12,11 +12,7 @@ function DarkCarouselVariant() {
 
     const [carouselImage1, setCarouselImage1] = useState([]);
 
-
-
-
-    let myData = [];
-
+    let myData =[];
 
     const options = {
       method: 'GET',
