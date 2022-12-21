@@ -20,11 +20,6 @@ const ReviewBox = (props) => {
     const showStarRating = (rating) => {
         return (
             <div className="starsDiv">
-                {/* <a className={rating > 0 ? "star" : "star empty-star"}></a>
-                <a className={rating > 1 ? "star" : "star empty-star"}></a>
-                <a className={rating > 2 ? "star" : "star empty-star"}></a>
-                <a className={rating > 3 ? "star" : "star empty-star"}></a>
-                <a className={rating > 4 ? "star" : "star empty-star"}></a> */}
                 <a className="star-container"><img src={rating > 0 ? star : darkStar} className="star"></img></a>
                 <a className="star-container"><img src={rating > 1 ? star : darkStar} className="star"></img></a>
                 <a className="star-container"><img src={rating > 2 ? star : darkStar} className="star"></img></a>
