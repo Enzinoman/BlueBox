@@ -16,27 +16,27 @@ function DarkCarouselVariant() {
 
 
     let myData = [];
-    
-      const options = {
-        method: 'GET',
-        url: 'https://moviesdatabase.p.rapidapi.com/titles/x/upcoming',
-        headers: {
-          'X-RapidAPI-Key': '83e0e090d5msha3f06865ed72c28p16284ajsn36df8c2e848f',
-          'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
-        }
-      };
-    
-    
-      axios.request(options) // "http//localhost:2022/displayArea"
-      .then(function (response) {
-        console.log(response.data);
-        myData = response.data;
-        console.log(myData.results);
-        setCarouselImage1(myData.results[0].primaryImage.url);
 
-      }).catch(function (error) {
-        console.error(error);
-      });
+    const options = {
+      method: 'GET',
+      url: 'http://localhost:2022/test',
+      headers: {
+        'X-RapidAPI-Key': '83e0e090d5msha3f06865ed72c28p16284ajsn36df8c2e848f',
+        'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
+      }
+    };
+  
+  
+    axios.request(options)
+    .then(function (response) {
+      console.log(response.data);
+      myData = response.data;
+      console.log(myData.results);
+      setCarouselImage1(myData.results[0].primaryImage.url);
+  
+    }).catch(function (error) {
+      console.error(error);
+    });
 
 
 
