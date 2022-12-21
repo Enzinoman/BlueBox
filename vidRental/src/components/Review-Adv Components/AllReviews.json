@@ -1,0 +1,83 @@
+[
+    {
+        "movie_title": "Avatar",
+        "reviews" : [
+            {
+                "user": "randomUser123",
+                "date":"December 19, 2009",
+                "stars": 5,
+                "text": "Mauris odio ipsum, vehicula nec luctus in, vulputate eu elit. Duis efficitur ipsum non tortor rhoncus, id dictum sem ultricies."
+            },
+            {
+                "user": "randomUser456",
+                "date":"December 18, 2009",
+                "stars": 4,
+                "text": "Aliquam lacinia cursus risus quis rhoncus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia ligula eu elit placerat."
+            },
+            {
+                "user": "randomUser789",
+                "date":"December 19, 2009",
+                "stars": 5,
+                "text": "Duis efficitur ipsum non tortor rhoncus, id dictum sem ultricies."
+            },
+            {
+                "user": "randomUser101112",
+                "date":"December 18, 2009",
+                "stars": 4,
+                "text": "Aliquam lacinia cursus risus quis rhoncus."
+            }
+            
+        ]
+    },
+    {
+        "movie_title": "Avatar 2",
+        "reviews" : [
+            {
+                "user": "randomUser789",
+                "date":"December 17, 2022",
+                "stars": 3,
+                "text": "Curabitur ac metus sollicitudin, dictum leo id, vestibulum erat. Nam placerat aliquam auctor. Sed lacus justo, placerat et sollicitudin at."
+            },
+            {
+                "user": "randomUser101112",
+                "date":"December 16, 2022",
+                "stars": 2,
+                "text": "Vivamus dolor quam, vulputate eget nibh porttitor, lacinia convallis purus. Donec quis arcu in lacus fermentum accumsan vel sed ex."
+            }
+        ]
+    },
+    {
+        "movie_title": "Avatar 3",
+        "reviews" : [
+            {
+                "user": "randomUser123",
+                "date":"December 19, 2032",
+                "stars": 5,
+                "text": "Mauris odio ipsum, vehicula nec luctus in, vulputate eu elit."
+            },
+            {
+                "user": "randomUser456",
+                "date":"December 18, 2032",
+                "stars": 4,
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia ligula eu elit placerat."
+            }
+        ]
+    },
+    {
+        "movie_title": "Avatar 4",
+        "reviews" : [
+            {
+                "user": "randomUser789",
+                "date":"December 17, 2043",
+                "stars": 3,
+                "text": "Nam placerat aliquam auctor. Sed lacus justo, placerat et sollicitudin at."
+            },
+            {
+                "user": "randomUser101112",
+                "date":"December 16, 2043",
+                "stars": 2,
+                "text": "Donec quis arcu in lacus fermentum accumsan vel sed ex."
+            }
+        ]
+    }
+]
