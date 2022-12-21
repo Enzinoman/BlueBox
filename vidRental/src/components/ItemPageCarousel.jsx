@@ -96,6 +96,5 @@ function DarkCarouselVariant() {
   }
 }
 
-}
 
 export default DarkCarouselVariant;
