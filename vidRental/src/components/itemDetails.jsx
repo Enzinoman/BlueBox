@@ -7,6 +7,7 @@ import ReviewBox from "./Review-Adv Components/ReviewBox.jsx"
 import reviewsData from "./Review-Adv Components/AllReviews.json"
 import { useState } from "react";
 import ItemDetailSummary from './itemDetailSummary';
+// import JouSection from 
 
 const Item = (props) => {
   const [currentMovie, setCurrentMovie] = useState(reviewsData[0])
