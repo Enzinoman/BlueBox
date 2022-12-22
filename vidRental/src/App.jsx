@@ -7,7 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Footer from "./Footer.jsx"
 import DisplayArea from './components/DisplayArea'
 import Item from './components/itemDetails'
-
+import RotatingFrog from './components/rotatingFrog'
 
 
 function App() {
@@ -26,6 +26,9 @@ function App() {
             </Route>
             <Route exact path='/itemDetails'>
               <Item />
+            </Route>
+            <Route exact path='/rotatingFrog'>
+              <RotatingFrog/>
             </Route>
           </Switch>
         </div>

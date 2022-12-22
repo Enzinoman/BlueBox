@@ -1,7 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import { useState } from 'react';
 import { useEffect} from 'react';
-import axios from 'axios';
 import { Link } from 'react-router-dom'
 import 'react-multi-carousel/lib/styles.css';
 import './itemPageCarousel.css';
@@ -34,9 +33,6 @@ const PanelTwo = () => {
   }, [movieThumbNailArray])
 
 
-  const linker = (e) => {
-   
-  }
 
 
 return (
@@ -46,25 +42,39 @@ return (
         <div className="carousel-content-wrapper">
             <div className="carousel-content">
               <div className='imageBoundary'>
-              <img className="images" onClick={linker} src={Expendables3} alt="placeholder" />
+              <Link to="/rotatingFrog">
+              <img className="images" src={Expendables3} alt="placeholder" />
+              </Link>
               </div>
               <div className='imageBoundary'>
+              <Link to="/rotatingFrog">
                 <img className="images" src={Giants} alt="placeholder" />
+              </Link>
               </div>
               <div className='imageBoundary'>
+              <Link to="/rotatingFrog">
                 <img className="images" src={Guardians} alt="placeholder" />
+              </Link>
               </div>
               <div className='imageBoundary'>
+              <Link to="/rotatingFrog">
                 <img className="images" src={Guardians2} alt="placeholder" />
+              </Link>
               </div>
               <div className='imageBoundary'>
+              <Link to="/rotatingFrog">
                 <img className="images" src={IntoDarkness} alt="placeholder" />
+              </Link>
               </div>
               <div className='imageBoundary'>
+              <Link to="/rotatingFrog">
                 <img className="images" src={LastJedi} alt="placeholder" />
+              </Link>
               </div>
               <div className='imageBoundary'>
+              <Link to="/rotatingFrog">
                 <img className="images" src={JurassicWorld} alt="placeholder" />
+              </Link>
               </div>
 
             </div>

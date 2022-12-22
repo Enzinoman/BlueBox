@@ -5,7 +5,7 @@ import './navbar.css';
 import Logo from './logo';
 import SearchBar from "./searchBar";
 import ShowData from './data.json';
-
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -21,7 +21,9 @@ return(
 
 <div className='navbar' id="navbar">
   <div className="column-one">
+  <Link to='/'>
     <Logo />
+  </Link>
   </div>
   <div className="column-two">
     <div className="column-two-row-one">

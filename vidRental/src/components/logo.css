@@ -17,7 +17,7 @@
   }
 
 .blueLogo {
-    display: flex;
+    display: inline-flex;
     align-content: space-between;
   }
 

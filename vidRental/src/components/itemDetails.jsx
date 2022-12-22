@@ -23,9 +23,9 @@ const Item = (props) => {
     <div>
       
       <Link to="/itemDetails" >
-      <div className='topRun' />
-      <JouSection/>
-      <ItemDetailSummary />
+        <div className='topRun' />
+        <JouSection/>
+        <ItemDetailSummary />
         <CarouselItem />
         <ReviewBox {...itemProps}/>
       </Link>
