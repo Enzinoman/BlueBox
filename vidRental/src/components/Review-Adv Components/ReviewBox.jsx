@@ -30,24 +30,26 @@ const ReviewBox = (props) => {
     }
 
     return (
-        <div className="root-review">
-            <h2 className="words">Reviews</h2>
-            {/* Displays average rating for a movie and shows to total number of reviews */}
-            <div className="review-header">
-                <div style={{ display: "flex", flexDirection: "row" }}>
-                    {showStarRating(getAvgRating())}<a className="words">{movieReviews.length} reviews</a>
+        <div className="rev-container">
+            <div className="root-review">
+                <h2 className="words top-header">Reviews</h2>
+                {/* Displays average rating for a movie and shows to total number of reviews */}
+                <div className="review-header">
+                    <div style={{ display: "flex", flexDirection: "row" }}>
+                        {showStarRating(getAvgRating())}<a className="words">{movieReviews.length} reviews</a>
+                    </div>
+                    <a className="words" href="/write-review">WRITE A REVIEW</a>
                 </div>
-                <a className="words" href="/write-review">WRITE A REVIEW</a>
-            </div>
-            <hr></hr>
-            {/* Displays all reviews from one movie from json file */}
-            {movieReviews.map((item, index) => (
-                <Review showRating={showStarRating} movie={item} key={index} />
-            ))}
-            {/* Displays advertisement image below reviews */}
-            <hr></hr>
-            <div className="ad-img-div">
-                <a href="https://www.coupert.com/"><img className="advertise-img" src={ad}></img></a>
+                <hr></hr>
+                {/* Displays all reviews from one movie from json file */}
+                {movieReviews.map((item, index) => (
+                    <Review showRating={showStarRating} movie={item} key={index} />
+                ))}
+                {/* Displays advertisement image below reviews */}
+                <hr></hr>
+                <div className="ad-img-div">
+                    <a href="https://www.coupert.com/"><img className="advertise-img" src={ad}></img></a>
+                </div>
             </div>
         </div>
     )
