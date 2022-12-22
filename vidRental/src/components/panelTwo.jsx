@@ -36,6 +36,10 @@ const PanelTwo = () => {
 
 
 return (
+  <div className="outer">
+  <div className="title">
+  <p>More Like This</p>
+  </div>
     <div className="carousel-container" >
     <div className="carousel-wrapper">
 
@@ -82,7 +86,7 @@ return (
 
     </div>
 </div>
-
+</div>
 
 )
 

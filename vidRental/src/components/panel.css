@@ -46,3 +46,16 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+.outer {
+    display: inline-block;
+
+}
+
+.title {
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 28px;
+}
+
