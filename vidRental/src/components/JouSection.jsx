@@ -3,11 +3,15 @@ import avatarWater from './images/WayOfWaterThumbNail.png';
 import './JouSection.css'
 import ReactDOM from 'react-dom/client';
 import ReactStars from 'react-rating-stars-component';
-
+import { useContext } from "react"
+import { appContext } from "../App"
 
 
 
 const Item = (props) => {
+
+  const {backgroundImage, setBackgroundImage} = useContext(appContext)
+  const {frontImage, setFrontImage} = useContext(appContext)
 
   const firstExample = {
     size: 25,

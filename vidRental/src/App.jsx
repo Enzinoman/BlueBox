@@ -11,11 +11,14 @@ import RotatingFrog from './components/rotatingFrog'
 
 
 function App() {
-  const [linkTarget, setLinkTarget] = useState('');
-  const editLinkTarget = {linkTarget, setLinkTarget}
+  const [linkTarget, setLinkTarget] = useState('');  
+  const [backgroundImage, setBackgroundImage] = useState('');
+  const [frontImage, setFrontImage] = useState('');
+  const editBackgroundImage = {backgroundImage, setBackgroundImage}
+  const editFrontImage = {frontImage, setFrontImage}
 
   return (
-  <appContext.Provider value={{...editLinkTarget}}>
+  <appContext.Provider value={{...editBackgroundImage, ...editFrontImage}}>
     <Router>
       <div className="App">
         <Header />

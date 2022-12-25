@@ -21,7 +21,7 @@ return(
 
 <div className='navbar' id="navbar">
   <div className="column-one">
-  <Link to='/'>
+  <Link to='/' className="logoHolder">
     <Logo />
   </Link>
   </div>

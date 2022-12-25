@@ -1,27 +1,32 @@
 .logo-column {
-    width: 200px;
-    height: 100px;
-    margin: 0px;
-    background-color: rgb(10, 14, 65);
-    margin: 0%;
-    padding: 0%;
+  width: 200px;
+  height: 100px;
+  margin: 0px;
+  background-color: rgb(10, 14, 65);
+  margin: 0%;
+  padding: 0%;
+  vertical-align: top;
+
 }
 
 .blueFrog {
-    height: 95px;
-    width: 75px;
-  }
+  height: 95px;
+  width: 75px;
+}
 
-  h3 {
-    color: white;
-  }
+h3 {
+  color: white;
+}
 
 .blueLogo {
-    display: inline-flex;
-    align-content: space-between;
-  }
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+}
 
-  .blueLogo h4{
-    display: flex;
-    color: rgb(245, 247, 249);
-  }
+.blueLogo p{
+  display: flex;
+  color: rgb(245, 247, 249);
+  font-weight: bolder;
+  vertical-align: middle;
+}

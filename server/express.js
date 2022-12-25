@@ -6,13 +6,29 @@ app.use(CORS());
 const port = 2022;
 
 
+// app.get('/test', (req, res) => {
+        
+//     axios.get('https://moviesdatabase.p.rapidapi.com/titles/x/upcoming', {
+//         headers: {
+//             'X-RapidAPI-Key':'83e0e090d5msha3f06865ed72c28p16284ajsn36df8c2e848f',
+//             'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
+//         }
+//     })
+//         .then(response => {
+//             // Do something with the response data
+//             res.send(response.data);
+//         })
+//         .catch(error => {
+//             // Handle any error that occurred
+//             console.error(error);
+//             res.send(error);
+//         });
+// });
+
 app.get('/test', (req, res) => {
         
-    axios.get('https://moviesdatabase.p.rapidapi.com/titles/x/upcoming', {
-        headers: {
-            'X-RapidAPI-Key':'83e0e090d5msha3f06865ed72c28p16284ajsn36df8c2e848f',
-            'X-RapidAPI-Host': 'moviesdatabase.p.rapidapi.com'
-        }
+    axios.get('https://api.themoviedb.org/3/movie/popular?api_key=ab8c8392ff011eb0a1fc84b84c2bbce0&language=en-US&page=1', {
+        headers: { }
     })
         .then(response => {
             // Do something with the response data
@@ -24,7 +40,6 @@ app.get('/test', (req, res) => {
             res.send(error);
         });
 });
-
 
 
 // app.get('/movies', (req, res) => {
@@ -55,3 +70,8 @@ app.get('/test', (req, res) => {
 app.listen(port, () => {
     console.log(`BlueFrog Server listening on port ${port} Happy Hopping`);
 });
+
+
+
+
+
