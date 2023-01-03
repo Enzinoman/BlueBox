@@ -97,7 +97,7 @@ function DarkCarouselVariant() {
       <Link to="/itemDetails">
         <img
           className=" d-block mx-auto img-fluid w-25"
-          src={carouselImage1}
+          src={frontImage}
           alt="First slide"
         />
         </Link>
@@ -105,7 +105,7 @@ function DarkCarouselVariant() {
       <Carousel.Item  className="carousel-item">
         <img
           className=" d-block mx-auto img-fluid w-25"
-          src={frontImage}
+          src={carouselImage1}
           alt="Second slide"
         />
       </Carousel.Item>
