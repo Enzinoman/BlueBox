@@ -29,6 +29,7 @@ const Item = (props) => {
         <CarouselItem />
         <ReviewBox {...itemProps}/>
       </Link>
+      
     </div>
   )
 

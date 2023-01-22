@@ -3,6 +3,8 @@ import BlueFrogCard from './images/BlueFrogCard3.png'
 import { Link } from 'react-router-dom'
 import './rotatingFrog.css'
 import LillyPad from './images/lillyPad2.png'
+import Question1 from './images/q1.png'
+import Answer1 from './images/a1.png'
 // import RotationBox from "react-3d-rotation-box";
 
 
@@ -23,6 +25,16 @@ return (
           </div>
           <div className='flip-card-back'>
             <img src={BlueFrogCard} />
+          </div>
+        </div>
+      </div>
+      <div className="flip-card-container">
+        <div className="flip-card">
+          <div className='flip-card-front'>
+            <img className="lilly" src={Question1} />
+          </div>
+          <div className='flip-card-back'>
+            <img src={Answer1} />
           </div>
         </div>
       </div>
