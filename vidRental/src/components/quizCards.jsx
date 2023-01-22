@@ -1,19 +1,19 @@
 import React from 'react';
 import BlueFrogCard from './images/BlueFrogCard3.png'
 import { Link } from 'react-router-dom'
-import './rotatingFrog.css'
-import LillyPad from './images/lillyPad2.png'
+import './quizCard.css'
+import q1 from './images/q1.png'
 // import RotationBox from "react-3d-rotation-box";
 
 
 
-const RotatingFrog = () => {
+const Quizzes = () => {
 
 
 return (
 
 
-  <Link to="/rotatingFrog" >
+  <Link to="/quizzes" >
     <div className='container'>
       <div className='topGunRun' />
       <div className="flip-card-container">
@@ -35,4 +35,4 @@ return (
 
 };
 
-export default RotatingFrog
+export default Quizzes
