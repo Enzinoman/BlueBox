@@ -8,6 +8,7 @@ import Panther from './images/blackPanther.png'
 import Bol from './images/bookOfLife.png'
 import Expendables1 from './images/expendables.png'
 import Expendables2 from './images/expendables2.png'
+import { Link } from 'react-router-dom'
 
 
 
