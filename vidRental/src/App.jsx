@@ -8,7 +8,7 @@ import Footer from "./Footer.jsx"
 import DisplayArea from './components/DisplayArea'
 import Item from './components/itemDetails'
 import RotatingFrog from './components/rotatingFrog'
-import Quizzes from './components/quizCards'
+import Minis from './components/miniModules'
 
 
 function App() {
@@ -37,8 +37,8 @@ function App() {
             <Route exact path='/rotatingFrog'>
               <RotatingFrog/>
             </Route>
-            <Route exact path='/quizzes'>
-              <Quizzes/>
+            <Route exact path='/minis'>
+              <Minis/>
             </Route>
           </Switch>
         </div>
