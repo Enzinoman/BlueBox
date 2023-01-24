@@ -40,6 +40,9 @@ function App() {
             <Route exact path='/minis'>
               <Minis/>
             </Route>
+            <Route exact path='/interview'>
+              <Minis/>
+            </Route>
           </Switch>
         </div>
       </div>

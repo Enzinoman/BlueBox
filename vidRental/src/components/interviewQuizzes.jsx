@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import './miniModules.css'
-import q1 from './images/q1.png'
-import a1 from './images/a1.png'
+import './interviewQuizzes.css'
+import iq1 from './images/iq1.png'
+import ia1 from './images/ia1.png'
 import q2 from './images/q2.png'
 import a2 from './images/a2.png'
 import q3 from './images/q3.png'
@@ -240,17 +240,17 @@ const Minis = () => {
 return (
 
 
-  <Link to="/minis" >
+  <Link to="/interview" >
       <div className='outer-container'>
     <div className='container'>
       <div className='topGunRun' />
       <div className="flip-card-container">
         <div className="flip-card">
           <div className='flip-card-front'>
-            <img className="lilly" src={q1} />
+            <img className="lilly" src={iq1} />
           </div>
           <div className='flip-card-back'>
-            <img src={a1} />
+            <img src={ia1} />
           </div>
         </div>
       </div>
