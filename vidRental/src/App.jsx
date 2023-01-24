@@ -9,6 +9,7 @@ import DisplayArea from './components/DisplayArea'
 import Item from './components/itemDetails'
 import RotatingFrog from './components/rotatingFrog'
 import Minis from './components/miniModules'
+import Interview from './components/interviewQuizzes'
 
 
 function App() {
@@ -41,7 +42,7 @@ function App() {
               <Minis/>
             </Route>
             <Route exact path='/interview'>
-              <Minis/>
+              <Interview/>
             </Route>
           </Switch>
         </div>
