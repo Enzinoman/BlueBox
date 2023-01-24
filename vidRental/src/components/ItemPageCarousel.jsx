@@ -45,7 +45,10 @@ function DarkCarouselVariant() {
   if(panel === 1){
 
     return (
-  
+      <>
+      <div className="title">
+        <p>More Like This</p>
+        </div>
       <div className="outer-container">
         <div className='btnDivL'>
   
@@ -57,11 +60,16 @@ function DarkCarouselVariant() {
           </button>
         </div>
       </div>
+      </>
     );
   
   }else{
         if(panel === 2){
           return (
+            <>
+              <div className="title">
+                <p>More Like This</p>
+                </div>
             <div className="outer-container">
               <div className='btnDivL'>
                 <button onClick={prev} className="left-arrow">
@@ -75,9 +83,14 @@ function DarkCarouselVariant() {
                 </button>
               </div>
             </div>
+            </>
           );
         }else{
           return (
+            <>
+              <div className="title">
+                <p>More Like This</p>
+                </div>
             <div className="outer-container">
               <div className='btnDivL'>
                 <button onClick={prev} className="left-arrow">
@@ -89,6 +102,7 @@ function DarkCarouselVariant() {
   
               </div>
             </div>
+            </>
   
           );
         }

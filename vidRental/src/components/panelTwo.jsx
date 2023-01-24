@@ -37,9 +37,6 @@ const PanelTwo = () => {
 
 return (
   <div className="outer">
-  <div className="title">
-  <p>More Like This</p>
-  </div>
     <div className="carousel-container" >
     <div className="carousel-wrapper">
 
@@ -51,7 +48,7 @@ return (
               </Link>
               </div>
               <div className='imageBoundary'>
-              <Link to="/rotatingFrog">
+              <Link to="/quizzes">
                 <img className="images" src={Giants} alt="placeholder" />
               </Link>
               </div>

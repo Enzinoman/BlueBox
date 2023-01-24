@@ -8,7 +8,7 @@ import Footer from "./Footer.jsx"
 import DisplayArea from './components/DisplayArea'
 import Item from './components/itemDetails'
 import RotatingFrog from './components/rotatingFrog'
-import Quizzes from './components/quizCard'
+import Quizzes from './components/quizCards'
 
 
 function App() {
@@ -22,24 +22,26 @@ function App() {
   <appContext.Provider value={{...editBackgroundImage, ...editFrontImage}}>
     <Router>
       <div className="App">
-        <Header />
         <div className='content'>
           <Switch >
             <Route exact path='/'>
+              <Header />
               <DisplayArea />
+              <Footer />
             </Route>
             <Route exact path='/itemDetails'>
+              <Header />
               <Item />
+              <Footer />
             </Route>
             <Route exact path='/rotatingFrog'>
               <RotatingFrog/>
             </Route>
             <Route exact path='/quizzes'>
-              <quizzes/>
+              <Quizzes/>
             </Route>
           </Switch>
         </div>
-        <Footer />
       </div>
     </Router>
   </appContext.Provider>

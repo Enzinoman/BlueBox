@@ -2,7 +2,7 @@
     width: 1500px;
     display: flex;
     flex-direction: center;
-    align-items: center;
+
 }
 
 .leftPadding {
@@ -66,15 +66,23 @@ background-color: transparent;
 }
 
 .btnDiv {
+    display: inline-block;
     width: 200px;
     margin: 0px;
     padding: 0px;
 }
 
 .btnDivL {
+    display: inline-block;
     width: 200px;
     margin: 0px;
     padding-left: 0px;
 }
 
+.title {
+    align-items: flex-start;
+    font-weight: bold;
+    font-size: 28px;
+    padding-left: 180px;
+}
 
