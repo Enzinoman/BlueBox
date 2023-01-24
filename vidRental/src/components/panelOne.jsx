@@ -23,7 +23,9 @@ return (
         <div className="carousel-content-wrapper">
             <div className="carousel-content">
               <div className='imageBoundary'>
+              <Link to="/interview">
                 <img className="images" src={Amsterdam} alt="placeholder" />
+              </Link>  
               </div>
               <div className='imageBoundary'>
                 <img className="images" src={Adam} alt="placeholder" />

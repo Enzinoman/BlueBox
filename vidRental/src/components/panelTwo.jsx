@@ -48,7 +48,7 @@ return (
               </Link>
               </div>
               <div className='imageBoundary'>
-              <Link to="/quizzes">
+              <Link to="/minis">
                 <img className="images" src={Giants} alt="placeholder" />
               </Link>
               </div>
